@@ -76,7 +76,7 @@ const Login: React.FC = () => {
         )}
         <div className="flex justify-center items-center">
           <ReCAPTCHA
-            sitekey={import.meta.env.VITE_RECAPTCHA_STIE_KEY}
+            sitekey={import.meta.env.VITE_RECAPTCHA_SITE_KEY}
             onChange={onChange}
           />
         </div>
