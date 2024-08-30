@@ -19,7 +19,7 @@ interface gridProps {
   details: Array<{ src: string; text: string }>;
 }
 
-const Usecases = () => {
+const Usecases: React.FC = () => {
   const stats: Array<statProps> = [
     {
       heading: "For Individuals",
@@ -39,7 +39,7 @@ const Usecases = () => {
       info: [
         { stat: 65, text: "Cash Flow Management" },
         { stat: 70, text: "Drive Business Expansion" },
-        { stat: 40, text: "Streamline payroll processing" },
+        { stat: 45, text: "Streamline payroll processing" },
       ],
       moreLink: "#",
     },

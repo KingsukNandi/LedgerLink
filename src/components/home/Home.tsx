@@ -1,6 +1,6 @@
 import { Features, Hero, Usecases } from "../index";
 
-const Home = () => {
+const Home: React.FC = () => {
   return (
     <>
       <Hero />

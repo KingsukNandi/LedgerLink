@@ -1,6 +1,6 @@
 import heroImgBackArt from "../../assets/Abstract Design.png";
 import heroImg from "../../assets/Container.png";
-const Hero = () => {
+const Hero: React.FC = () => {
   return (
     <div className="grid lg:grid-cols-2 grid-cols-1 text-center lg:text-left">
       <div className="mb-9">

@@ -1,4 +1,4 @@
-const Features = () => {
+const Features: React.FC = () => {
   return (
     <div>
       <div className="text-center lg:text-left text-4xl my-6 leading-relaxed xl:leading-normal xl:text-5xl font-semibold">
