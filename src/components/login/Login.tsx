@@ -41,7 +41,7 @@ const Login: React.FC = () => {
   };
 
   return (
-    <div className="rounded-3xl max-w-[1200px] bg-cardBg border-border border flex flex-col md:gap-16 text-base md:text-3xl p-4 md:p-11 m-auto">
+    <div className="rounded-3xl max-w-[1200px] bg-cardBg border-border border flex flex-col md:gap-16 text-base md:text-2xl p-4 md:p-11 m-auto">
       <h1 className="text-3xl md:text-5xl font-semibold m-auto text-highlight">
         Login
       </h1>
@@ -53,7 +53,7 @@ const Login: React.FC = () => {
           type="text"
           placeholder="Email"
           id="email"
-          className="bg-body border-border border p-3 md:p-4 placeholder:text-darkText rounded-2xl outline-none"
+          className="bg-body border-border border p-3 md:p-4 placeholder:text-darkText transition-all hover:text-3xl rounded-2xl outline-none"
           {...register("email")}
         />
         {errors.email && (
@@ -66,7 +66,7 @@ const Login: React.FC = () => {
           type="password"
           placeholder="Password"
           id="password"
-          className="bg-body border-border border p-3 md:p-4 placeholder:text-darkText rounded-2xl outline-none"
+          className="bg-body border-border border p-3 md:p-4 placeholder:text-darkText transition-all hover:text-3xl rounded-2xl outline-none"
           {...register("password")}
         />
         {errors.password && (
@@ -84,7 +84,7 @@ const Login: React.FC = () => {
           type="submit"
           value="Submit"
           disabled={!isVerified}
-          className="text-highlight disabled:text-cardBg font-semibold w-fit m-auto bg-buttonBG border-border border p-3 md:p-5 px-6 md:px-8 mt-7 md:mt-0 rounded-full"
+          className="text-highlight transition-all hover:scale-105 active:scale-95 disabled:text-cardBg font-semibold w-fit m-auto bg-buttonBG border-border border p-3 md:p-5 px-6 md:px-8 mt-7 md:mt-0 rounded-full"
         />
       </form>
     </div>

@@ -17,7 +17,7 @@ const Hero: React.FC = () => {
           decisions and achieve your goals. Start managing your money with
           confidence today!
         </div>
-        <button className="bg-highlight text-cardBg mt-14 font-semibold py-4 px-6 rounded-full">
+        <button className="bg-highlight text-cardBg transition-all hover:scale-105 active:scale-95 mt-14 font-semibold py-4 px-6 rounded-full">
           View Transactions
         </button>
       </div>

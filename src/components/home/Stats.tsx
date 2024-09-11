@@ -23,7 +23,7 @@ const Stats = (props: props) => {
       <div className="w-full lg:w-fit flex  justify-center items-center">
         <a
           href={props.moreLink}
-          className="font-semibold bg-cardBg border-border border p-5 px-8 rounded-full"
+          className="font-semibold bg-cardBg border-border border p-5 px-8 rounded-full transition-all hover:scale-105 active:scale-95"
         >
           Learn More
         </a>
